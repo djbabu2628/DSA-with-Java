@@ -11,5 +11,6 @@ public class Input{
         System.out.println(str);
 
         sc.close();
+        vc.close();
     }
 }
