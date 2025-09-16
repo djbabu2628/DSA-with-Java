@@ -1,2 +1,2 @@
-# DSA-with-Java
+# DSA-in-Java
 DSA with Java by Apna College
