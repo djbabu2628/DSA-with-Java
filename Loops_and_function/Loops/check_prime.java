@@ -14,7 +14,7 @@ public class check_prime {
                 if(n%i==0){
                     isPrime = true;
                 }
-            }
+            }   
                 if(isPrime == true){
                     System.out.println("is not Prime number");
                 }
