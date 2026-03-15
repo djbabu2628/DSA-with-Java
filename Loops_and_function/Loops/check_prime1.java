@@ -6,7 +6,11 @@ public class check_prime1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number: ");
         int n = sc.nextInt();
-        if(n==2){
+        if(n<2){
+            System.out.print(n+" is not Prime number");
+        }
+        else{
+            if(n==2){
             System.out.println(n+" is Prime Number");
         }
         else{
@@ -22,6 +26,7 @@ public class check_prime1 {
             else{
                 System.out.println(n+" is Not Prime Number");
             }
+        }
         }
         sc.close();
     }
