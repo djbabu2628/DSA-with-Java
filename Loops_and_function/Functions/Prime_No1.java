@@ -13,16 +13,26 @@ public class Prime_No1{
         return isPrime;
     }
 
+    public static void PrimeInRange(int n){
+        for(int i = 2;i<=n;i++){
+            if(isPrime(i)){
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number ");
         int n = sc.nextInt();
-        if(n<=1){
-            System.out.print("less than 1 is not prime no. please enter greater than 1");
-        }
-        else{
-            System.out.print("is Prime " + isPrime(n));
-        }
+        // if(n<=1){
+        //     System.out.print("less than 1 is not prime no. please enter greater than 1");
+        // }
+        // else{
+        //     System.out.print("is Prime " + isPrime(n));
+        // }
+        PrimeInRange(n);
     }
 
 }
