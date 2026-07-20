@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Que1{
-    public static int avg(int a, int b, int c){
+    public int avg(int a, int b, int c){
         int avg = (a+b+c)/3;
         return avg;
     }
