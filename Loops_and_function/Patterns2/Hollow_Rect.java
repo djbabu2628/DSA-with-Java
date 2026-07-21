@@ -21,8 +21,7 @@ public class Hollow_Rect{
         int cols = sc.nextInt();
         System.out.print("Enter width : ");
         int rows = sc.nextInt();
-        Rect(cols,rows);
+        Rect(rows,cols);
         sc.close();
-        
     }
 }
